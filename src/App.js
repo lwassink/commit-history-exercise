@@ -25,7 +25,7 @@ class App extends Component {
 
     return (
       <div className="App">
-        <h1>Github Commit History`:</h1>
+        <h1>Github Commit History:</h1>
 
         { warning }
 
