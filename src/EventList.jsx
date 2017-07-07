@@ -25,7 +25,7 @@ const CommitItem = ({ commit }) => {
   return (
     <li>
       {commit.author.name}: {commit.message},&nbsp;
-      <a href={ commit.repoUrl } target="blank">GitHub Link</a>
+      <a href={ commit.repoUrl } target="blank">Repository</a>
     </li>
   );
 }
