@@ -1,0 +1,26 @@
+input {
+  margin: 10px;
+  width: 200px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+div {
+  width: 100%;
+}
+
+.warning {
+  color: red;
+}
+
+a {
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 30px;
+}
