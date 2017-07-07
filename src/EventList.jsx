@@ -3,7 +3,6 @@ import React from 'react';
 export default ({ events }) => {
   let commits = [];
   events.forEach(event => {
-    console.log(event);
 
     if (event.type === "PushEvent"){
       const repoUrl = `https://github.com/${event.repo.name}`
